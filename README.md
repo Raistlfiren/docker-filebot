@@ -120,6 +120,9 @@ of this parameter has the format `<VARIABLE_NAME>=<VALUE>`.
 |`AMC_ANIME_FORMAT`| Define how anime files are renamed by the Automated Media Center (AMC) script.  Filebot supports a very powerful naming scheme.  See [Format Expressions](https://www.filebot.net/naming.html) for complete documentation. | `{plex}` |
 |`AMC_PROCESS_MUSIC`| When set to `y`, music files are processed by the Automated Media Center (AMC) script.  A value of `n` does not process them. | `y` |
 |`AMC_SUBTITLE_LANG`| Comma-separated list of subtitle languages to download.  Example: `en,de,fr`. | (unset) |
+|`AMC_EXCLUDE_LIST`| Full path listing to the amc exclude in file in relation to the docker environment. Example: /config/amc-exlude-list.txt. | /config/amc-exlude-list.txt |
+|`AMC_INPUT_DIR`| Full path to the WATCHED directory in relation to the docker environment. Example: /watch. | /watch) |
+|`AMC_OUTPUT_DIR`| Full path to the OUTPUT directory in relation to the docker environment. Example: /output. | /output |
 |`AMC_CUSTOM_OPTIONS`| Custom arguments to pass to the Automated Media Center (AMC) script. | (unset) |
 
 ### Data Volumes

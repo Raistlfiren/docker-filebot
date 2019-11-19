@@ -374,6 +374,42 @@ changes to the file system.
         </unraid_template>
       </environment_variable>
       <environment_variable>
+        <name>AMC_EXCLUDE_LIST</name>
+        <description>Full path to the amc-exclude.txt file in relation to the docker environment. Example: /config/amc-exlude-list.txt.</description>
+        <default></default>
+        <unraid_template>
+          <title>Automated Media Center: Exclude file</title>
+          <description>Full path listing to the amc exclude in file in relation to the docker environment. Example: /config/amc-exlude-list.txt.</description>
+          <display>advanced</display>
+          <required>false</required>
+          <mask>false</mask>
+        </unraid_template>
+      </environment_variable>
+      <environment_variable>
+        <name>AMC_INPUT_DIR</name>
+        <description>Full path to the WATCHED directory in relation to the docker environment. Example: /watch.</description>
+        <default></default>
+        <unraid_template>
+          <title>Automated Media Center: WATCHED Directory</title>
+          <description>Full path to the WATCHED directory in relation to the docker environment. Example: /watch.</description>
+          <display>advanced</display>
+          <required>false</required>
+          <mask>false</mask>
+        </unraid_template>
+      </environment_variable>
+      <environment_variable>
+        <name>AMC_OUTPUT_DIR</name>
+        <description>Full path to the OUTPUT directory in relation to the docker environment. Example: /output.</description>
+        <default></default>
+        <unraid_template>
+          <title>Automated Media Center: OUTPUT Directory</title>
+          <description>Full path to the OUTPUT directory in relation to the docker environment. Example: /output.</description>
+          <display>advanced</display>
+          <required>false</required>
+          <mask>false</mask>
+        </unraid_template>
+      </environment_variable>
+      <environment_variable>
         <name>AMC_CUSTOM_OPTIONS</name>
         <description>Custom arguments to pass to the Automated Media Center (AMC) script.</description>
         <default></default>
